@@ -1,0 +1,98 @@
+<!DOCTYPE>
+<html lang="end">
+<head>
+<title>Contact Form</title>
+<style type="text/css">
+    #r25{
+	margin-left: 500px;
+	margin-right: 500px;
+	 width: 200px;
+	 height: 200px;
+	position: relative;
+	animation: r25 5s 2;
+	animation-direction: alternate-reverse
+	}
+	@keyframes r25 {
+	0%   {left: 0px; top: 0px;}
+	25%  {left: 200px; top: 0px;}
+	50%  {left: 200px; top: 200px;}
+	75%  {left: 0px; top: 200px;}
+	100% {left: 0px; top: 0px;}
+	}
+	#superman{
+		margin-left: 500px;
+		margin-right: 500px;
+		 width: 200px;
+		 height: 200px;
+		position: relative;
+		animation: r25 5s 2;
+		animation-direction: alternate-reverse
+		}
+		@keyframes superman {
+		0%   {left: 0px; top: 0px;}
+		25%  {left: 200px; top: 0px;}
+		50%  {left: 200px; top: 200px;}
+		75%  {left: 0px; top: 200px;}
+		100% {left: 0px; top: 0px;}
+		}
+</style>
+</head>
+<body>
+<br><img id="r25" src="r25.jpg"</br>
+<img id="superman" src="superman.jpg"
+<br><form method="post" action="contact.php"></br>
+	<label for="name">Name:</label>
+	<input type="text" class="text" name="cf_name" id="name" />
+	<label for="email">email:</label>
+	<input type="text" class="text" name="cf_email" id="email" />
+	<label for="text">Message:</label>
+	<textarea class="text" name="cf_message" id="message"></textarea>
+	<input type="submit" class="submit" value="Send" />
+</form>
+<h1>Kontak</h1>
+<div class="form">
+	<form name="form alamat">
+		<label>Alamat</label>
+		<input type="text" name="nama pengguna" placeholder="silahkan masukkan nama"><br>
+		<label>email</label>
+		<input type="email" name="email pengguna" placeholder="Silahkan masukkan email mu"></br>
+		<label>no handphone</label>
+        <input type="no.handphone" name="no.handphone" placeholder="Silahkan masukkan no handphone"></br>
+		<label>Pekerjaan</label>
+		<select name="pekerjaan">
+			<optgroup label="IT">
+				<option value="programmer">programmer</option>
+				<option value="programmer">IT support</option>
+			</optgroup>
+			<optgroup label="Staff"
+			<option value="staff">staff</option>
+			<option value="seniorstaff">seniorstaff</option>
+			<option value="developer">Front End developer</option>
+			<option value="developer">Back End developer</option>
+		</optgroup>
+		</select><br>
+		<label>jenis kelamin</label>
+		<input type="radio" name="status" value="pria">pria
+		<input type="radio" name="status" value="wanita">wanita</br>
+		<label>tujuan</label>
+		<br><input type="checkbox" name="warna" value="hitam">menghubungi atasan</br>
+		<br><input type="checkbox" name="warna" value="hitam">permasalahan kerjaan</br>
+	<br><input type="checkbox" name="warna" value="hitam">Resign</br>
+		<br><input type="checkbox" name="warna" value="hitam">Perpanjang kontrak</br>
+		<br><input type="checkbox" name="warna" value="hitam">Pindah posisi</br>
+		<br> <label>Isi komentar</label></br>
+		<textarea name="komentarmu " cols="20" rows="8"placeholder="masukkan komentarmu"></textarea> 
+
+
+
+
+	</form>
+
+</div>
+
+
+<a href="css.html"_blank">kembali ke home</a>
+<p></p>
+
+</body>
+</html>
